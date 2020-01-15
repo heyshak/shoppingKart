@@ -1,0 +1,20 @@
+.Navbar ul li{
+   display: inline;
+    list-style-type: none;
+    /* margin-right: 20px;*/
+    padding: 25px; 
+    /* position: relative; */
+   
+    
+   
+}
+.Navbar ul li:hover{
+    /* background-color: red; */
+    border-bottom: 3px solid orange;
+}
+.Navbar ul li a{
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+}

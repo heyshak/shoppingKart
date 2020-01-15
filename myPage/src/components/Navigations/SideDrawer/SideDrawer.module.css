@@ -1,0 +1,36 @@
+
+@media (max-width:510px){
+   
+    .SideDrawer{
+       
+        background-color:whitesmoke;
+        width: 50%;
+        height: 40rem;
+        margin-top: 60px;
+        transform: translateX(10%);
+        transition: transform 5s ease-out;
+        background: linear-gradient(180deg, #FC466B 0%, #3F5EFB 100%);
+        left: 0;
+        position:fixed;
+       
+    }
+    .SideDrawer ul,
+    .SideDrawer ul li {
+        margin: 0;
+        padding: 0;
+        padding: 20px;
+        list-style: none;
+    }
+    .SideDrawer ul li a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        font-size: 16px;
+        padding: 10px  30px 10px 30px;
+        letter-spacing: 2px;
+       
+       
+        
+    }
+    
+}

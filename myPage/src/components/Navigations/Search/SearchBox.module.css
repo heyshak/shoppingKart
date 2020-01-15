@@ -1,0 +1,21 @@
+.Search{
+    width: 500px;
+    /* background-color; */
+    height: 40px;
+    padding:0 0 0 20px;
+    border-radius: 5px;
+    border: 1.5px solid whitesmoke;
+}
+
+.SearchBox{
+    width: 400px;
+    border: none;
+    height: 100%;
+    padding:0 0 0 30px;
+   background-color: white;
+    
+    outline-style: none;
+    /* margin: 2 0 2 0; */
+}
+
+
