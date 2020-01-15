@@ -1,5 +1,5 @@
 .Wrapper {
-    display:inline; 
+    display:flex; 
     margin-left: 50px;
 }
 .Wrapper a{

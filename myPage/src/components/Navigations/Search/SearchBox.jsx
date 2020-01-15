@@ -7,7 +7,7 @@ export default class SearchBox extends Component {
             <div className={classes.Search} >
                 <a href="/Search">
                <span>
-                    <i class="fa fa-search" aria-hidden="true" style={{'color':'grey'}}></i>
+                    <i class="fa fa-search" aria-hidden="true" style={{'color':'red'}}></i>
                 </span>
                </a>
                 <input type="text" className={classes.SearchBox} placeholder="Search for products" />

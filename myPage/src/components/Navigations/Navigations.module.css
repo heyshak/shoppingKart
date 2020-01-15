@@ -1,22 +1,18 @@
 .NavBody{
-    
-    
-    align-items: center;
     display: flex;
+    align-items: center;
     box-shadow: 5px 5px 5px 5px whitesmoke; 
     justify-content: space-around;
-    
-    
 }
 .NavBody1{
     display:flex;
-    /* justify-content: flex-start; */
-    align-items: center; 
-    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start; 
 }
 .NavBody2{
     display:flex;
-   align-items: center;
+
+    align-items: center;
     
 }
 
