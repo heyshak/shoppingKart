@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Card from '../../components/Cards/Card/Card'
+import Cards from '../../components/Cards/Cards'
 
 const PostData = [{
   "category": "News",
@@ -57,7 +57,7 @@ class CardMain extends Component {
         {
           Object
             .keys(this.state.posts)
-            .map(key => <Card key={key} index={key} details={this.state.posts[key]} />)
+            .map(key => <Cards key={key} index={key} details={this.state.posts[key]} />)
         }
       </div>
 
