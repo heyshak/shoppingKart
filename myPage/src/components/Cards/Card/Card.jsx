@@ -10,7 +10,7 @@ class Card extends Component {
                 <CardBody category={this.props.category} image={this.props.image} />
                 <CardHeader  title={this.props.title} text={this.props.text}/>
                 
- 
+                
             </div>
 
 

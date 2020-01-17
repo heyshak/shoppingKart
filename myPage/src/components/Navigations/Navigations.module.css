@@ -4,6 +4,7 @@
     align-items: center;
     box-shadow: 5px 5px 5px 5px whitesmoke; 
     justify-content: space-around;
+    box-sizing: border-box;
 }
 .NavBody1{
     display:flex;

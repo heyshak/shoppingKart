@@ -1,13 +1,17 @@
+/* card styling  with height and width*/
 .Card{
     display:block;
     text-align: center;
-    /* width: 300px; */
-    background-color: rebeccapurple;
+    width: 300px;
+    height: 350px;
+    border: 1.5px solid whitesmoke;
+    border-radius: 10px;
+
    
    
 }
 .Card:hover{
-    box-shadow: 5px 5px 15px 5px red;    
+    box-shadow: 5px 5px 5px 5px whitesmoke;    
     /* transform: scale(1.5); */
 
 }

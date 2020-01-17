@@ -36,7 +36,19 @@ const PostData = [{
   "title": "React and the WP-API",
   "text": "The first ever decoupled starter theme",
   "image": "https://source.unsplash.com/user/ilyapavlov/600x400"
-}
+},
+{
+  "category": "Development",
+  "title": "React and the WP-API",
+  "text": "The first ever decoupled starter theme",
+  "image": "https://source.unsplash.com/user/ilyapavlov/600x400"
+},
+{
+  "category": "News",
+  "title": "CNN Acquire BEME",
+  "text": "CNN purchased Casey Neistat's Beme",
+  "image": "https://source.unsplash.com/user/erondu/600x400"
+},
 ]
 
 class CardMain extends Component {

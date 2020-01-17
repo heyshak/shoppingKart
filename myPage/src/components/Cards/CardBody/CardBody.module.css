@@ -15,19 +15,15 @@
     margin-left: 20px;
 
 }
-/* .CardBody header:hover{
-    height: 350px;
 
-} */
-.Article p{
-    flex-wrap: wrap;
-}
-.CardBody a{
+.CardBody div{
     position: relative;
     right: 0;
-    display: none;
-    margin-left: 20px;
+    margin:20px 20px 0 0 ;
+
 }
-.CardBody a:hover{
-    background-color: pink;
-}
+/*  */
+.Container:hover  {
+    bottom: 0;
+    height: 100%;
+  }
