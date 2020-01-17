@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import classes from './CardBody.module.css'
+// import 'materialize-css/dist/css/materialize.min.css';
+
 class CardBody extends Component {
     render() {
         const { image, category } = this.props
