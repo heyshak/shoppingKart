@@ -10,12 +10,12 @@ class CardBody extends Component {
             width: '100%', //width of the image(means card body)
             height: '250px', //height of the image(means card body)
             borderRadius: '10px',
-
+            
         }
         return (
             <header style={style} className={classes.CardBody} >
                 <h4 >{category}</h4>
-                <div><i class="fa fa-heart-o fa-2x" aria-hidden="true"></i></div>
+                <div><i class="fa fa-heart-o fa-2x " aria-hidden="true"></i></div>
             
             </header>
 
